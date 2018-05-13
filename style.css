@@ -1,0 +1,64 @@
+body{
+	background-color: #000000;
+	background-image: url("paper.png");
+	max-width: 100%;
+}
+
+.small {
+	font-size: 1vw;
+	font-family: "Arial";
+	color: #888888;
+	float: left;
+	margin-left: 20vw;
+}
+
+.signin {
+	color: #555555;
+	font-size: 1.5vw;
+}
+
+input[type=email], select {
+    width: 80%;
+    margin:auto;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 2vw;
+
+}
+
+input[type=password], select {
+    width: 80%;
+    margin: auto;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 2vw;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 2.5vw;
+}
+
+input[type=submit]:hover {
+    background-color: #aaaaaa;
+    color: #222222;
+}
