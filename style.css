@@ -18,7 +18,21 @@ body{
 }
 
 input[type=email], select {
-    width: 80%;
+    width: 95%;
+    margin:auto;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 2vw;
+
+}
+
+input[type=text], select {
+    width: 95%;
     margin:auto;
     padding: 12px 20px;
     display: inline-block;
@@ -32,7 +46,7 @@ input[type=email], select {
 }
 
 input[type=password], select {
-    width: 80%;
+    width: 95%;
     margin: auto;
     padding: 12px 20px;
     display: inline-block;
@@ -45,7 +59,7 @@ input[type=password], select {
 }
 
 input[type=submit] {
-    width: 80%;
+    width: 20%;
     background-color: #222222;
     color: white;
     padding: 14px 20px;
@@ -56,9 +70,24 @@ input[type=submit] {
     color: white;
     font-family: "Times New Roman";
     font-size: 2.5vw;
+    float: right;
 }
 
 input[type=submit]:hover {
     background-color: #aaaaaa;
     color: #222222;
 }
+
+input[type=radio], select {
+    margin:auto;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 2vw;
+
+}
+
