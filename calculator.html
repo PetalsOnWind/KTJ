@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="calcstyle.css">
+		<meta charset="utf-8"/>
+	</head>
+
+
+	<body>
+		<div class="calc" id="calcbody">
+		<form id="calcform">
+
+			
+			<script type="text/javascript" src="calcscript.js"></script>
+			<textarea class="box" id="display" cols="16">0</textarea>
+
+			<table>
+				<tr>
+					<td><button type="button" class= "numbers" id="zero" onclick="digit('0')">0</button></td>
+					<td><button type="button" class= "clr" id="clear" onclick="clear()">C</button></td>
+					<td><button type="button" class= "clr" id="allclear" onclick="allclear()">AC</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "numbers" id="one" onclick="digit('1')">1</button></td>
+					<td><button type="button" class= "numbers" id="two" onclick="digit('2')">2</button></td>
+					<td><button type="button" class= "numbers" id="three" onclick="digit('3')">3</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "numbers" id="four" onclick="digit('4')">4</button></td>
+					<td><button type="button" class= "numbers" id="five" onclick="digit('5')">5</button></td>
+					<td><button type="button" class= "numbers" id="six" onclick="digit('6')">6</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "numbers" id="seven" onclick="digit('7')">7</button></td>
+					<td><button type="button" class= "numbers" id="eight" onclick="digit('8')">8</button></td>
+					<td><button type="button" class= "numbers" id="nine" onclick="digit('9')">9</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "function" id="plus" onclick="op(1)">+</button></td>
+					<td><button type="button" class= "function" id="minus" onclick="op(2)">-</button></td>
+					<td><button type="button" class= "function" id="multiply" onclick="op(3)">x</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "function" id="divide" onclick="op(4)">/</button></td>
+					<td><button type="button" class= "function" id="factorial" onclick="op(5)">!</button></td>
+					<td><button type="button" class= "function" id="decimal" onclick="digit(".")">.</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class= "function" id="hcf" onclick="op(6)">HCF</button></td>
+					<td><button type="button" class= "function" id="lcm" onclick="op(7)">LCM</button></td>
+					<td><button type="button" class= "function" id="eq" onclick="calculations()">=</button></td>
+				</tr>
+
+
+			</table>
+		</form>
+		</div>
+
+	</body>
+
+
+
+</html>

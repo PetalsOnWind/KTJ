@@ -1,0 +1,50 @@
+.calc{
+	background-color: #0080FF;
+	align-content: center;
+	width: 280px;
+	align-self: center;
+	border-style: solid;
+
+}
+
+.box{
+	background-color: #FFFFFF;
+	align-content: right;
+	border-style: solid;
+	height: 30px;
+	text-align: right;
+	margin: 3px;
+	padding: 5px;
+	font-size: 25px;
+}
+
+button{
+    
+    border: 1px ;
+    color: black; 
+    padding: 10px 30px; 
+    cursor: pointer; 
+    display: block;
+    border-style: solid;
+}
+
+button:hover {
+	box-shadow: 0 1px #999;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.numbers{
+	color: #000000;
+	background-color: #DDDDDD;
+}
+
+.function{
+	color: #000000;
+	background-color: #999999;
+}
+
+.clr{
+	color: #000000;
+	background-color: #FF3333;
+}
